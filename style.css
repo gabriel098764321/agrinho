@@ -22,7 +22,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #3f704d;
+ background-color: #8B0000; /* Vermelho escuro tipo carne */
   color: white;
   display: flex;
   flex-wrap: wrap;
@@ -130,7 +130,7 @@ section p {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #3f704d;
+ background-color: #D2B48C; /* Marrom claro */
   color: white;
   border: none;
   font-size: 1.5rem;
@@ -142,7 +142,7 @@ section p {
 }
 
 .carousel-btn:hover {
-  background-color: #2e563b;
+   background-color: #5C4033; /* Marrom escuro no hover */
 }
 
 .carousel-btn.left {
@@ -165,7 +165,7 @@ video {
 }
 
 footer {
-  background-color: #3f704d;
+ background-color: #5C4033; /* Marrom escuro */
   color: white;
   text-align: center;
   padding: 20px;
@@ -186,7 +186,7 @@ footer {
   position: fixed;
   right: 10px;
   top: 150px;
-  background: #3f704d;
+  background-color: #B22222; /* Vermelho queimado */
   color: white;
   border: none;
   padding: 8px 12px;
@@ -200,7 +200,7 @@ footer {
   position: fixed;
   right: 10px;
   top: 190px;
-  background: #fff;
+  background-color: #f5f0e6; /* Bege claro */
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 8px;
@@ -219,14 +219,14 @@ footer {
 .accessibility-menu button {
   padding: 8px;
   border: none;
-  background-color: #3f704d;
+  background-color: #A52A2A; /* Marrom avermelhado */
   color: white;
   border-radius: 6px;
   cursor: pointer;
-}
+ }
 
 .accessibility-menu button:hover {
-  background-color: #2e563b;
+   background-color: #8B0000; /* Cabeçalho cor - mais escuro no hover */
 }
 
 .high-contrast {
